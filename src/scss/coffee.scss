@@ -1,0 +1,148 @@
+@import "_variables.scss";
+
+/*  COFFEE */
+
+// NAVIGATION
+
+.home__nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 7rem;
+  background-color: $header_background;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  text-decoration: none;
+
+  &__list {
+    display: flex;
+    list-style-type: none;
+  }
+}
+
+.logo {
+  height: 6rem;
+  margin-left: 7rem;
+}
+
+.link {
+  color: $header_text;
+  background-color: $header_background;
+  text-decoration: none;
+  padding: 1.25rem 3.5rem;
+
+  &:hover {
+    color: $header_hover;
+  }
+}
+
+.coffee__pitch {
+  width: 80%;
+  margin-top: 0;
+  h1 {
+    font-weight: 300;
+    font-size: 250%;
+    font-weight: 300;
+  }
+  p {
+    font-weight: 300;
+    font-size: 120%;
+    font-weight: 300;
+  }
+}
+.card {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 3em;
+  h4 {
+    font-size: 180%;
+    font-weight: 300;
+    padding-left: 1em;
+  }
+  p {
+    font-weight: 300;
+  }
+}
+.card__unit {
+  width: 35%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+.card__content {
+  padding: 2px 16px;
+}
+
+// FOOTER
+
+.footer {
+  background-color: $footer_background;
+
+  &__nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 5rem;
+    text-decoration: none;
+
+    &__list {
+      display: flex;
+      flex-direction: row;
+      list-style-type: none;
+      padding-top: 2em;
+    }
+  }
+}
+
+.link_2 {
+  display: flex;
+
+  color: $footer_links;
+  background-color: $footer_background;
+  text-decoration: none;
+  padding: 1.25rem 3rem;
+
+  &:hover {
+    color: $header_hover;
+  }
+}
+
+.footer__social {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  color: $footer_links;
+  background-color: $footer_background;
+  text-decoration: none;
+  padding: 1.25rem 3rem;
+
+  h4 {
+    display: flex;
+    justify-content: center;
+  }
+
+  p {
+    display: flex;
+    justify-content: center;
+
+    a {
+      color: #ced4da;
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+  }
+
+  .link_3 {
+    &:hover {
+      color: $header_hover;
+    }
+  }
+}
