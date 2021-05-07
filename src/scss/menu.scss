@@ -1,0 +1,142 @@
+@import "_variables.scss";
+
+/*  MENU */
+
+// NAVIGATION
+
+.home__nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 7rem;
+  background-color: $header_background;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  text-decoration: none;
+
+  &__list {
+    display: flex;
+    list-style-type: none;
+  }
+}
+
+.logo {
+  height: 6rem;
+  margin-left: 7rem;
+}
+
+.link {
+  color: $header_text;
+  background-color: $header_background;
+  text-decoration: none;
+  padding: 1.25rem 3.5rem;
+
+  &:hover {
+    color: $header_hover;
+  }
+}
+
+.container {
+  // width: 100vw;
+  // height: 200%;
+}
+
+.coffee-top {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 100px;
+}
+
+.menu__1,
+.menu__2,
+.menu__3,
+.menu__4,
+.menu__5,
+.menu__6 {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  font-weight: 300;
+}
+
+.coffee-mid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 100px;
+  width: 100%;
+}
+
+.machine {
+  width: 90%;
+}
+
+// FOOTER
+
+.footer {
+  background-color: $footer_background;
+
+  &__nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 5rem;
+    text-decoration: none;
+
+    &__list {
+      display: flex;
+      flex-direction: row;
+      list-style-type: none;
+      padding-top: 2em;
+    }
+  }
+}
+
+.link_2 {
+  display: flex;
+
+  color: $footer_links;
+  background-color: $footer_background;
+  text-decoration: none;
+  padding: 1.25rem 3rem;
+
+  &:hover {
+    color: $header_hover;
+  }
+}
+
+.footer__social {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  color: $footer_links;
+  background-color: $footer_background;
+  text-decoration: none;
+  padding: 1.25rem 3rem;
+
+  h4 {
+    display: flex;
+    justify-content: center;
+  }
+
+  p {
+    display: flex;
+    justify-content: center;
+
+    a {
+      color: #ced4da;
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+  }
+
+  .link_3 {
+    &:hover {
+      color: $header_hover;
+    }
+  }
+}
