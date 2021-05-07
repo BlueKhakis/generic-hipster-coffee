@@ -39,15 +39,46 @@
   }
 }
 
-.container {
-  // width: 100vw;
-  // height: 200%;
-}
+// .container {
+// width: 100vw;
+// height: 200%;
+// }
 
 .coffee-top {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   margin-bottom: 100px;
+}
+
+.menu__1 p {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 30%;
+}
+.menu__2 p {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 30%;
+}
+.menu__3 p {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 30%;
+}
+.menu__4 p {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 30%;
+}
+.menu__5 p {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 30%;
+}
+.menu__6 p {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 30%;
 }
 
 .menu__1,
