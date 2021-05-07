@@ -208,13 +208,56 @@ h2 {
   }
 }
 
-// MENU
+// COFFEE
 
-.coffee {
+.coffee__container {
+  margin-top: 4em;
+  margin-left: 8em;
 }
 
-.menu__1 {
+.coffee__pitch {
+  width: 80%;
+  margin-top: 0;
+
+  h1 {
+    font-weight: 300;
+    font-size: 250%;
+    font-weight: 300;
+  }
+
+  p {
+    font-weight: 300;
+    font-size: 120%;
+    font-weight: 300;
+  }
 }
 
-.menu__2 {
+.card {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 3em;
+
+  h4 {
+    font-size: 180%;
+    font-weight: 300;
+    padding-left: 1em;
+  }
+
+  p {
+    font-weight: 300;
+  }
+}
+
+.card__unit {
+  width: 35%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.card__content {
+  padding: 2px 16px;
 }
